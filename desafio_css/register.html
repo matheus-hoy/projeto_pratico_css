@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <form name="meuForm" method="post" id="formulario">
+        <div class="box">
+            <h1>Formulário de Cadastro - Newsletter Chaves! \o/</h1>
+            <label>
+                <span>Nome:</span>
+                <input type="text" placeholder=" Digite seu Nome" class="input_text" name="nome" id="name" />
+            </label>
+            <label>
+                <span>Email:</span>
+                <input type="text" placeholder=" Digite seu E-mail" class="input_text" name="email" id="email" />
+            </label>
+            <label>
+                <span>Telefone:</span>
+                <input type="number" class="input_text" required placeholder="( x x ) x x x x x - x x x x"
+                    name="telefone" id="subject" />
+            </label>
+            <label>
+            <span>Personagem Favorito:</span>
+            <select class="select" name="select" id="select">
+                <option value="chaves">Chaves</option>
+                <option value="seumadruga">Seu Madruga</option>
+                <option value="Kiko">Kiko</option>
+                <option value="chiquinha">Chiquinha</option>
+                <option value="donaflorinda">Dona Florinda</option>
+                <option value="professorgirafales">Professor Girafales</option>
+                <option value="donaclotilde">Dona Clotilde</option>
+                <option value="jaiminho">Jaiminho</option>
+                <option value="nhonho">NhoNho</option>
+                <option value="paty">Paty</option>
+                <option value="donaneves">Dona Neves</option>
+                <option value="godinez">Godinez</option>
+            </select>
+        </label>
+        <label>
+            <span>Mensagem:</span>
+                <textarea class="message" placeholder=" Mande uma mensagem para seu personagem favorito!"></textarea>
+                <input type="button" class="button" value="Cadastrar" />
+            </label>
+        </div>
+    </form>
+</body>
+</html>
