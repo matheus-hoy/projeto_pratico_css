@@ -1,104 +1,103 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: "Anton", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: "Anton", sans-serif;
 }
-body{
-    background-color: rgba(0, 128, 0, 0.295);
+body {
+  background-color: rgba(0, 128, 0, 0.295);
 }
 div.box {
-    margin:0 auto;
-    width:500px;
-    margin-bottom: 100px;
-    background-image: linear-gradient(
-        to right,
-        #0a46028f,
-        rgba(0, 117, 0, 0.356)
-      );
-    position:relative;
-    top:50px;
-    border-radius: 4px;
-    box-shadow: 7px 5px 5px #0a4602e7;
+  margin: 0 auto;
+  width: 500px;
+  margin-bottom: 100px;
+  background-image: linear-gradient(
+    to right,
+    #0a46028f,
+    rgba(0, 117, 0, 0.356)
+  );
+  position: relative;
+  top: 50px;
+  border-radius: 4px;
+  box-shadow: 7px 5px 5px #0a4602e7;
 }
 
 div.box h1 {
-    text-align: center;
-    color:rgba(0, 0, 0, 0.836);
-    font-size:18px;
-    padding:5px 0 5px 5px;
-    border-bottom:1px solid #161712;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.836);
+  font-size: 18px;
+  padding: 5px 0 5px 5px;
+  border-bottom: 1px solid #161712;
 }
 
 div.box label {
-    width:100%;
-    display: block;
-    margin-top: 35px;
-    padding:10px 0 10px 0;
+  width: 100%;
+  display: block;
+  margin-top: 35px;
+  padding: 10px 0 10px 0;
 }
 
 div.box label span {
-    display: block;
-    color:rgba(0, 0, 0, 0.836);
-    font-size:16px;
-    float:left;
-    width:100px;
-    margin-left: 20px;
-    text-align: center;
-    flex-direction: column;
-    align-items: stretch;
+  display: block;
+  color: rgba(0, 0, 0, 0.836);
+  font-size: 16px;
+  float: left;
+  width: 100px;
+  margin-left: 20px;
+  text-align: center;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 div.box .input_text {
-    width:350px;
-    height: 25px;
-    border-radius: 3px;
-    background:rgba(167, 197, 161, 0.664);
-    border-bottom: 2px double #171717;
-    border-top: 1px double #171717;
-    border-left:1px double #333333;
-    border-right:2px double #333333;
+  width: 350px;
+  height: 25px;
+  border-radius: 3px;
+  background: rgba(167, 197, 161, 0.664);
+  border-bottom: 2px double #171717;
+  border-top: 1px double #171717;
+  border-left: 1px double #333333;
+  border-right: 2px double #333333;
 }
 
-div.box .message{
-    padding:7px 7px;
-    width:333px;
-    border-radius: 3px;
-    background:rgba(167, 197, 161, 0.664);
-    border-bottom: 2px double #171717;
-    border-top: 1px double #171717;
-    border-left:1px double #333333;
-    border-right:2px double #333333;
-    overflow:hidden;
-    height:150px;
-    resize:none;
+div.box .message {
+  padding: 7px 7px;
+  width: 333px;
+  border-radius: 3px;
+  background: rgba(167, 197, 161, 0.664);
+  border-bottom: 2px double #171717;
+  border-top: 1px double #171717;
+  border-left: 1px double #333333;
+  border-right: 2px double #333333;
+  overflow: hidden;
+  height: 150px;
+  resize: none;
 }
-div.box .select{
-    padding:7px 7px;
-    width:350px;
-    border-radius: 3px;
-    background:rgba(167, 197, 161, 0.664);
-    border-bottom: 2px double #171717;
-    border-top: 1px double #171717;
-    border-left:1px double #333333;
-    border-right:2px double #333333;
-    
+div.box .select {
+  padding: 7px 7px;
+  width: 350px;
+  border-radius: 3px;
+  background: rgba(167, 197, 161, 0.664);
+  border-bottom: 2px double #171717;
+  border-top: 1px double #171717;
+  border-left: 1px double #333333;
+  border-right: 2px double #333333;
 }
 
-div.box .button{
-    margin:0 0 10px 0;
-    padding:4px 7px;
-    background:#234d29;
-    border:0px;
-    position: relative;
-    top:10px;
-    margin-left: 28%;
-    width:215px;
-    height: 35px;
-    text-align:center;
-    border-radius: 7px;
+div.box .btn {
+  margin: 0 0 10px 0;
+  padding: 4px 7px;
+  background: #234d29;
+  border: 0px;
+  position: relative;
+  top: 10px;
+  margin-left: 28%;
+  width: 215px;
+  height: 35px;
+  text-align: center;
+  border-radius: 7px;
 }
-.button:hover {
-    transition: all 0.9s ease-out 0s;
-    color: white;
-    cursor: pointer;
-  }
+.btn:hover {
+  transition: all 0.9s ease-out 0s;
+  color: white;
+  cursor: pointer;
+}
