@@ -13,21 +13,22 @@
 </head>
 
 <body>
-    <form name="meuForm" method="post" id="formulario">
+    <form name="meuForm" method="get" id="formulario" action="./register.html">
         <div class="box">
             <h1>Formulário de Cadastro - Newsletter Chaves! \o/</h1>
             <label>
                 <span>Nome:</span>
-                <input type="text" placeholder=" Digite seu Nome" class="input_text" name="nome" id="name" />
+                <input value="" autofocus type="text" placeholder=" Digite seu Nome" required name=nome/
+                    class="input_text" name="nome" id="name" autocomplete="name" />
             </label>
             <label>
                 <span>Email:</span>
-                <input type="text" placeholder=" Digite seu E-mail" class="input_text" name="email" id="email" />
+                <input type="text" placeholder=" Digite seu E-mail" required name=email/ class="input_text" name="email" id="email" autocomplete="email" />
             </label>
             <label>
                 <span>Telefone:</span>
                 <input type="number" class="input_text" required placeholder="( x x ) x x x x x - x x x x"
-                    name="telefone" id="subject" />
+                    name="telefone" id="subject" autocomplete="tel"/>
             </label>
             <label>
                 <span>Personagem Favorito:</span>
@@ -49,7 +50,7 @@
             <label>
                 <span>Mensagem:</span>
                 <textarea class="message" placeholder=" Mande uma mensagem para seu personagem favorito!"></textarea>
-                <input type="btn" class="btn" value="Cadastrar" />
+                <input type="submit" class="btn" value="Cadastrar">
                 <input class="btn" value="Voltar"><a href="index.html"></a>
             </label>
         </div>
