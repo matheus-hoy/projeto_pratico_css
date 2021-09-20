@@ -16,21 +16,22 @@
     <form name="meuForm" method="get" id="formulario" action="./register.html">
         <div class="box">
             <h1>Formulário de Cadastro - Newsletter Chaves! \o/</h1>
-            <label>
+            <label id="name">
                 <span>Nome:</span>
-                <input value="" autofocus type="text" placeholder=" Digite seu Nome" required name=nome/
-                    class="input_text" name="nome" id="name" autocomplete="name" />
+                <input value="" autofocus type="text" placeholder=" Digite seu Nome" required name=name/
+                    class="input_text" name="name" id="name" autocomplete="name" />
             </label>
-            <label>
+            <label id="email">
                 <span>Email:</span>
-                <input type="text" placeholder=" Digite seu E-mail" required name=email/ class="input_text" name="email" id="email" autocomplete="email" />
+                <input type="text" placeholder=" Digite seu E-mail" required name=email/ class="input_text" name="email"
+                    id="email" autocomplete="email" />
             </label>
-            <label>
+            <label id="tel">
                 <span>Telefone:</span>
-                <input type="number" class="input_text" required placeholder="( x x ) x x x x x - x x x x"
-                    name="telefone" id="subject" autocomplete="tel"/>
+                <input type="number" class="input_text" required placeholder="( x x ) x x x x x - x x x x" name="tel"
+                    id="tel" autocomplete="tel" />
             </label>
-            <label>
+            <label id="select">
                 <span>Personagem Favorito:</span>
                 <select class="select" name="select" id="select">
                     <option value="chaves">Chaves</option>
