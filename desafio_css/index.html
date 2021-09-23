@@ -9,9 +9,12 @@
     <script src="source.js"></script>
     <title>Desafio Css Matheus</title>
 </head>
+
 <body>
     <nav class="navbar">
-        <img class="touca" src="./assets/iconchaves.png" alt="touca">
+       
+        <button class="touca" onclick="foo(event)"></button>
+        
         <label for="search-input">
             <input type="search" placeholder="pesquise o Chaves">
         </label>
@@ -24,7 +27,7 @@
         </div>
     </nav>
     <div class="container">
-        <div class="article1">
+        <div class="article1" id="article1">
             <p>aliquid sapiente debitis voluptates provident non a consequatur eligendi, quis quam
                 dignissimos aperiam
             </p>
@@ -36,8 +39,8 @@
                 deleniti ut iusto quas
             </p>
         </div>
-        <div class="article2">
-            <h3>Seja bem vindo ao site do chaves</h3>
+        <div class="article2" id="article2">
+            <h3>Clique no Chaves para saber mais \o/</h3>
             <br />
             <p>No menu acima você pode saber mais sobre os personagens da série de televisão mais vista da America
                 latina!
