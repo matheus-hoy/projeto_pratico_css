@@ -1,17 +1,7 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  text-align: justify;
-  font-family: "Anton", sans-serif;
-}
-
+@import url(./global.css);
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 .navbar {
-  background-image: linear-gradient(
-    to right,
-    #0a4602b6,
-    rgba(0, 117, 0, 0.356)
-  );
+  background-image: var(--corHeader);
   display: flex;
   height: 4.45rem;
   width: 100%;
@@ -80,8 +70,8 @@ a:hover {
   height: 698px;
   width: 25%;
   overflow: auto;
-  box-shadow: 7px 5px 5px #0a4602c0;
-  background-color: rgba(0, 117, 0, 0.267);
+  box-shadow: var(--boxArticle);
+  background-color: var(--corArticle);
   border-radius: 6px;
 }
 
@@ -89,8 +79,8 @@ a:hover {
   height: 698px;
   width: 75%;
   overflow: auto;
-  box-shadow: 7px 5px 5px #0a4602e7;
-  background-color: rgba(0, 117, 0, 0.267);
+  box-shadow: var(--boxArticle);
+  background-color: var(--corArticle);
   border-radius: 6px;
 }
 .article1::-webkit-scrollbar {
@@ -113,11 +103,7 @@ h3 {
 
 .footer {
   justify-content: center;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 117, 0, 0.356),
-    #0a4602c0
-  );
+  background-image: var(--corFooter);
   display: flex;
   height: 5.45rem;
   width: 100%;
@@ -131,5 +117,5 @@ input {
   margin-left: 20px;
   border-radius: 5px;
   width: 150px;
-  background-color: rgb(199, 240, 195);
+  background-color: var(--corInput);
 }

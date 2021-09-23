@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+  font-family: "Anton", sans-serif;
+}
+
+:root {
+  --corHeader: linear-gradient(to right, #0a4602b6, rgba(0, 117, 0, 0.356));
+  --corFooter: linear-gradient(to right, rgba(0, 117, 0, 0.356), #0a4602c0);
+  --corArticle: rgba(0, 117, 0, 0.267);
+  --boxArticle: 7px 5px 5px #0a4602c0;
+  --corScrool: #0a46025d;
+  --corInput: rgb(199, 240, 195);
+  --backgroundRegister: rgba(0, 128, 0, 0.295);
+  --boxRegister: 7px 5px 5px #0a4602e7;
+  --backBack: rgba(167, 197, 161, 0.664);
+  --botaoRegister: #234d29;
+}
