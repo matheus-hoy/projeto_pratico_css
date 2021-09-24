@@ -111,7 +111,6 @@ h3 {
   margin-top: 2%;
 }
 input {
-  display: flex;
   cursor: text;
   text-align: center;
   margin-left: 20px;
@@ -139,3 +138,123 @@ input {
   margin: 0 auto;
   cursor: pointer;
 }
+
+
+div.box {
+  margin: 0 auto;
+  width: 500px;
+  margin-bottom: 100px;
+  background-image: var(--corHeader);
+  position: relative;
+  top: 50px;
+  border-radius: 4px;
+  box-shadow: var(--boxRegister);
+}
+
+div.box h1 {
+  text-align: center;
+  font-size: 18px;
+  padding: 5px 0 5px 5px;
+  border-bottom: 1px solid black;
+}
+
+div.box label {
+  width: 100%;
+  display: block;
+  margin-top: 35px;
+  padding: 10px 0 10px 0;
+}
+
+div.box label span {
+  display: block;
+  font-size: 16px;
+  float: left;
+  width: 100px;
+  margin-left: 20px;
+  text-align: center;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+div.box .input_text {
+  width: 350px;
+  height: 25px;
+  border-radius: 3px;
+  background: var(--backBack);
+  border-bottom: 2px double #171717;
+  border-top: 1px double #171717;
+  border-left: 1px double #333333;
+  border-right: 2px double #333333;
+}
+
+div.box .message {
+  padding: 7px 7px;
+  width: 333px;
+  border-radius: 3px;
+  background: var(--backBack);
+  border-bottom: 2px double #171717;
+  border-top: 1px double #171717;
+  border-left: 1px double #333333;
+  border-right: 2px double #333333;
+  overflow: hidden;
+  height: 150px;
+  resize: none;
+}
+div.box .select {
+  padding: 7px 7px;
+  width: 350px;
+  border-radius: 3px;
+  background: var(--backBack);
+  border-bottom: 2px double #171717;
+  border-top: 1px double #171717;
+  border-left: 1px double #333333;
+  border-right: 2px double #333333;
+}
+
+div.box .btn {
+  margin: 0 0 10px 0;
+  background: var(--botaoRegister);
+  border: 0px;
+  position: relative;
+  top: 10px;
+  margin-left: 28%;
+  width: 215px;
+  height: 35px;
+  text-align: center;
+  border-radius: 7px;
+}
+.btn:hover {
+  transition: all 0.9s ease-out 0s;
+  color: white;
+  cursor: pointer;
+}
+.modal {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: -87px;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: var(--backgroundModal);
+  margin: 11% auto;
+  padding: 15px;
+  width: 40rem;
+  height: 53rem;
+}
+
+.openModal {
+    background: var(--botaoRegister);
+    border: 0px;
+    position: relative;
+    width: 240px;
+    height: 41px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.openModal:hover {
+  transition: all 0.9s ease-out 0s;
+  color: white;
+  cursor: pointer;
