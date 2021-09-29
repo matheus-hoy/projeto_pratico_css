@@ -9,7 +9,7 @@
 :root {
   --corHeader: linear-gradient(to right, #0a4602b6, rgba(0, 117, 0, 0.356));
   --corFooter: linear-gradient(to right, rgba(0, 117, 0, 0.356), #0a4602c0);
-  --corArticle: rgba(0, 117, 0, 0.267);
+  --corArticle:  rgb(197 236 197);
   --boxArticle: 7px 5px 5px #0a4602c0;
   --corScrool: #0a46025d;
   --corInput: rgb(199, 240, 195);

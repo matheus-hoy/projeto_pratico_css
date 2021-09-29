@@ -1,7 +1,11 @@
 @import url(./global.css);
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 .navbar {
-  background-image: var(--corHeader);
+  background-image:linear-gradient(to right, #0a4602da, rgba(0, 117, 0, 0.856));
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 700;
   display: flex;
   height: 4.45rem;
   width: 100%;
@@ -13,8 +17,10 @@
     flex-wrap: wrap;
     justify-content: center;
     font-size: 14px;
+    height: 5.45rem;
   }
 }
+
 @media only screen and (max-width: 330px) {
   .navbar li {
     font-size: 12px;
@@ -50,13 +56,16 @@ a:hover {
   color: white;
   cursor: pointer;
 }
+a:focus {
+  color: rgb(170, 77, 0);
+}
 
 .container {
-  border: 1px solid rgba(10, 70, 2, 0.781);
   padding: 7px;
-  margin-top: 2%;
+  margin-top: 5.45rem;
   margin-bottom: 3px;
-  margin-left: 3px;
+  margin-right: 10px;
+  margin-left: 5px;
   display: flex;
   flex-direction: row;
   box-shadow: 7px 5px 5px #0a4602e7;
@@ -102,13 +111,14 @@ h3 {
 }
 
 .footer {
-  justify-content: center;
+  justify-content: space-around;
   background-image: var(--corFooter);
   display: flex;
-  height: 5.45rem;
+  height: 150px;
   width: 100%;
   align-items: center;
   margin-top: 2%;
+  flex-direction: column;
 }
 input {
   cursor: text;
@@ -130,11 +140,10 @@ input {
 }
 .touca{
   background-image: url(./assets/iconchaves.png);
-  width: 50px;
-  height: 50px;
-  margin-left: 110px;
+  width: 60px;
+  height: 60px;
   background-size: cover;
-  border-radius: 70px;
+  border-radius: 15px;
   margin: 0 auto;
   cursor: pointer;
 }
@@ -258,4 +267,41 @@ div.box .btn {
   transition: all 0.9s ease-out 0s;
   color: white;
   cursor: pointer;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(53, 49, 49);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.icons{
+  display: flex;
+}
+.iconfb{
+  height: 43px;
+  margin-right: 70px;
+}
+.iconin{
+  margin-right: 70px;
+  height: 43px;
+}
+.iconyt{
+  height: 43px;
 }

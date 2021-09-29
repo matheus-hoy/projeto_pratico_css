@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <span id="wrapper"></span>
     <nav class="navbar">
         <button class="touca" onclick="foo(event)"></button>
         <label for="search-input">
@@ -18,9 +19,13 @@
         </label>
         <div class="ul-nav">
             <ul>
-                <li><a href="https://pt.wikipedia.org/wiki/Ram%C3%B3n_Vald%C3%A9s">Seu Madruga</a></li>
-                <li><a href="https://pt.wikipedia.org/wiki/Mar%C3%ADa_Antonieta_de_las_Nieves">Chiquinha</a></li>
-                <li><a href="https://pt.wikipedia.org/wiki/Carlos_Villagr%C3%A1n">Kiko</a></li>
+                <li class="tooltip"><a href="https://pt.wikipedia.org/wiki/Ram%C3%B3n_Vald%C3%A9s">Seu Madruga</a><span
+                        class="tooltiptext">Saiba mais sobre o Seu Madruga</span></li>
+                <li class="tooltip"><a
+                        href="https://pt.wikipedia.org/wiki/Mar%C3%ADa_Antonieta_de_las_Nieves">Chiquinha</a><span
+                        class="tooltiptext">Saiba mais sobre a Chiquinha</span></li>
+                <li class="tooltip"><a href="https://pt.wikipedia.org/wiki/Carlos_Villagr%C3%A1n">Kiko</a><span
+                        class="tooltiptext">Saiba mais sobre o Kiko</span></li>
             </ul>
         </div>
     </nav>
@@ -60,12 +65,21 @@
                 dignissimos aperiam.</p>
         </div>
     </div>
-    <div class="footer">
-        <button class="openModal" id="openModal" onclick="openModal()">Faça seu cadastro!</button>
+    <footer>
+        <div class="footer">
+            <button class="openModal" id="openModal" onclick="openModal()">Faça seu cadastro!</button>
+            <a href="#wrapper">Regressar Ao Topo</a>
+            <div class="icons">
+                <a href="https://www.facebook.com/ElChavodelOchoOficial"><img class="iconfb" src="./assets/facebook-logo.png" /></a>
+                <a href="https://www.instagram.com/forumchaves/?hl=pt"><img class="iconin" src="./assets/instagram.png" /></a>
+                <a href="https://www.youtube.com/channel/UC8-rnHGwvhD6Atp2qdGH6SA"><img class="iconyt" src="./assets/youtube.png" /></a>
+            </div>
+        </div>
         <div class="modal" id="modal">
             <form name="meuForm" method="get" id="formulario">
                 <div class="box">
                     <h1>Formulário de Cadastro - Newsletter Chaves! \o/</h1>
+
                     <label id="name">
                         <span>Nome:</span>
                         <input value="" autofocus type="text" placeholder=" Digite seu Nome" required name=name/
@@ -108,8 +122,8 @@
                 </div>
             </form>
         </div>
-    </div>
-    </div>
+        </div>
+    </footer>
 </body>
 
 </html>
